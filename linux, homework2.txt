@@ -6,7 +6,7 @@
    5 ls -1 | tail -4 >> /opt/task/start.txt
    6 date > /newfile.txt
    7 df -h |awk '{print $1 $3}' >> /newfile.txt
-   8 history | tail -5 >> newfile.txt
+   8 history | tail -5 >> /newfile.txt
    9 cat /proc/cpuinfo | grep -w vendor_id >> /newfile.txt
   10 nano /newfile.txt
   11 history > history.txt
